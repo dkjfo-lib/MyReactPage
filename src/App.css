@@ -1,4 +1,3 @@
-
 .header {
   background-color: #668;
   width: 100%;
@@ -10,4 +9,52 @@
   top: -7px;
   left: 50px;
   position: absolute;
+}
+
+.GoalsList {
+  margin: 20px;
+  padding: 20px 20px;
+
+  width: fit-content;
+
+  border-style: solid;
+  border-color: #668;
+  border-radius: 10px;
+}
+.GoalsList-Header {
+  margin: 0px 20px 10px 20px;
+}
+.GoalsList-Header > h2,
+p {
+  display: inline-block;
+  text-indent: 5px;
+  margin: 0px;
+}
+.GoalsList > p {
+  text-align: right;
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+}
+
+.Goal > div {
+  display: flex;
+  justify-content: space-between;
+}
+.Goal > div > button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+
+  display: block;
+  margin: 0px;
+  padding: 6px 0px 0px 10px;
+}
+.Goal > div > p {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+
+  display: block;
+  margin: 0px;
+  padding: 0px;
 }

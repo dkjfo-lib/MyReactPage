@@ -1,7 +1,9 @@
+import GoalsList from "./GoalsList"
+
 export default function Main(){
     return(
         <div>
-            <h1>Я люблю тебя солнышко ❤️</h1>
+            <GoalsList/>
         </div>
     )
 }
