@@ -1,24 +1,19 @@
+import Header from "./Header";
 import GoalsList from "./GoalsList";
+import Recommendations from "./Recommendations";
+import Improvements from "./Improvements";
 
-export default function Main() {
+function Main() {
   return (
     <div>
-      <GoalsList />
-      <div className="Recommendations">
-        <h2>Sites I recommend❤️</h2>
-        <div className="Recommendations-list">
-          <a href="https://moviesjoy.to/" target="_blank" rel="noreferrer">
-            Films/TV Shows
-          </a>
-          <a
-            href="https://en.wikiversity.org/wiki/Category:Introduction_to_Italian"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Italian
-          </a>
-        </div>
+      <Header />
+      <div>
+        <GoalsList />
+        <Recommendations />
+        <Improvements />
       </div>
     </div>
   );
 }
+
+export default Main;
