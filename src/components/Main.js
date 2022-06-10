@@ -37,6 +37,10 @@ function Main() {
             Keep your thoughts simple and let them have purpose. 
             Do not think what others say or think 
             for life is an opinion, and it is up to you to have your own
+
+            Just like there are junk food there are junk thoughts and feelings 
+            It is up to you what thoughts you are choosing to thinking,
+            what feelings you are allowing yourself to feel
           </h4>
         </div>
       </div>
