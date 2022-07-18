@@ -13,7 +13,8 @@ const Improvements = function () {
       <Improvement
         {...{
           improvement: "I am willing to do things more cautiously",
-          cure: "Spend more time planning use cases of skills you are learning",
+          cure: "Spend more time planning use cases of skills you are learning\n" +
+          "Ask yourself is this decision benefits me in a week / 3 months / a year so on",
         }}
       />
       <Improvement

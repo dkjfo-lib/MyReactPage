@@ -111,3 +111,7 @@ p {
 .Improvement > strong{
   color: rgb(255, 133, 34);
 }
+
+div{
+  white-space: pre-wrap;
+}
