@@ -7,9 +7,10 @@ import MusicList from "./Music/MusicList";
 
 function Main() {
   return (
-    <div>
+    <div className="bg-gray-800 text-gray-300 ">
       <Header />
-      <div>
+      <div className="
+      flex flex-col items-center">
         <GoalsList />
         <Recommendations />
         <Improvements />
